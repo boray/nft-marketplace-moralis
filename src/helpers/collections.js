@@ -10,12 +10,12 @@ export const networkCollections = {
     {
       image:
         "https://ipfs.moralis.io:2053/ipfs/QmfLbpeVHxReWKNLaXTPcWiafi49eoAL4gRwMGuXtx2Eqe/images/14.png",
-      name: "Pixel Show",
-      addrs: "0xCA34404dD8Bd6537BE76F3A51B379F8949bD7973",
+      name: "Test NFTs",
+      addrs: "0xc5b8C25850E6089Ee281CAB10328524030Aa47c0",
     },
     {
       image:
-        "https://ipfs.moralis.io:2053/ipfs/QmfLbpeVHxReWKNLaXTPcWiafi49eoAL4gRwMGuXtx2Eqe/images/14.png",
+        "https://ipfs.moralis.io:2053/ipfs/QmNfw7eun3XZJbWjNpC6UTS5HtvwWxKEWzK6XQJwKrWJRY",
       name: "Moralis Collection",
       addrs: "0x351bbee7C6E9268A1BF741B098448477E08A0a53",
     },
@@ -24,7 +24,7 @@ export const networkCollections = {
     //Add Your Collections here
     {
       image:
-        "https://lh3.googleusercontent.com/BWCni9INm--eqCK800BbRkL10zGyflxfPwTHt4XphMSWG3XZvPx1JyGdfU9vSor8K046DJg-Q8Y4ioUlWHiCZqgR_L00w4vcbA-w=s0",
+        "https://ipfs.moralis.io:2053/ipfs/QmNfw7eun3XZJbWjNpC6UTS5HtvwWxKEWzK6XQJwKrWJRY",
       name: "test collection",
       addrs: "0x6c33f4EfF2318Bf30C072da2b36Cf0FF384C1207",
     },
