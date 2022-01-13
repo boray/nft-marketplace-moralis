@@ -4,9 +4,10 @@ import { Card, Image, Tooltip, Modal, Input, Alert, Spin, Button } from "antd";
 import { useNFTBalance } from "hooks/useNFTBalance";
 import { FileSearchOutlined, ShoppingCartOutlined } from "@ant-design/icons";
 import { useMoralisDapp } from "providers/MoralisDappProvider/MoralisDappProvider";
-import { getExplorer } from "helpers/networks";
+import { getExplorer, getNativeByChain} from "helpers/networks";
 import { useWeb3ExecuteFunction } from "react-moralis";
 const { Meta } = Card;
+
 
 const styles = {
   NFTs: {
@@ -238,7 +239,7 @@ function NFTBalance() {
           />
           <Input
             autoFocus
-            placeholder="Listing Price in MATIC"
+            placeholder={"Listing Price in "+getNativeByChain(chainId)}
             onChange={(e) => setPrice(e.target.value)}
           />
         </Spin>

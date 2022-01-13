@@ -20,7 +20,16 @@ export const networkCollections = {
       addrs: "0x351bbee7C6E9268A1BF741B098448477E08A0a53",
     },
   ],
-
+  "0xa869": [
+    //Add Your Collections here
+    {
+      image:
+        "https://lh3.googleusercontent.com/BWCni9INm--eqCK800BbRkL10zGyflxfPwTHt4XphMSWG3XZvPx1JyGdfU9vSor8K046DJg-Q8Y4ioUlWHiCZqgR_L00w4vcbA-w=s0",
+      name: "test collection",
+      addrs: "0x6c33f4EfF2318Bf30C072da2b36Cf0FF384C1207",
+    },
+  ],
+  
   "0x1": [
     {
       image:

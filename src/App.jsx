@@ -85,16 +85,16 @@ const App = ({ isServerInfo }) => {
             defaultSelectedKeys={["nftMarket"]}
           >
             <Menu.Item key="nftMarket" onClick={() => setInputValue("explore")} >
-              <NavLink to="/NFTMarketPlace">🛒 Explore Market</NavLink>
+              <NavLink to="/NFTMarketPlace">🛒 Collections</NavLink>
             </Menu.Item>
             <Menu.Item key="nft">
-              <NavLink to="/nftBalance">🖼 Your Collection</NavLink>
+              <NavLink to="/nftBalance">🖼 Your NFTs</NavLink>
             </Menu.Item>
             <Menu.Item key="transactions">
               <NavLink to="/Transactions">📑 Your Transactions</NavLink>
             </Menu.Item>
             <Menu.Item key="about">
-              <NavLink to="/About">ℹ️ About</NavLink>
+              <NavLink to="/About">ℹ️ About NFThub</NavLink>
             </Menu.Item>
           </Menu>
           <div style={styles.headerRight}>
