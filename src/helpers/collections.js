@@ -3,13 +3,13 @@ export const networkCollections = {
     //Add Your Collections here
     {
       image:
-        "https://lh3.googleusercontent.com/BWCni9INm--eqCK800BbRkL10zGyflxfPwTHt4XphMSWG3XZvPx1JyGdfU9vSor8K046DJg-Q8Y4ioUlWHiCZqgR_L00w4vcbA-w=s0",
-      name: "Test Mages",
+        "https://gateway.pinata.cloud/ipfs/Qmaj4DEvL6E1mBdyFdibSaCpgA61wpmmv69JpSLrSRH5pS",
+      name: "Bogazici Collection",
       addrs: "0x275d553f426355c20b134D944B5b28D31CDb83DA",
     },
     {
       image:
-        "https://ipfs.moralis.io:2053/ipfs/QmfLbpeVHxReWKNLaXTPcWiafi49eoAL4gRwMGuXtx2Eqe/images/14.png",
+        "https://gateway.pinata.cloud/ipfs/QmeqMFgQULGMC31hRCB8wE3Upt8DVYLEr4P6Jc96xgQPxH",
       name: "Test NFTs",
       addrs: "0xc5b8C25850E6089Ee281CAB10328524030Aa47c0",
     },
